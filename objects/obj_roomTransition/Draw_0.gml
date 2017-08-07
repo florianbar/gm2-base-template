@@ -2,7 +2,7 @@ fadeAlpha = clamp(fadeAlpha + (fadeState * fadeSpeed), 0, 1);
 
 if (fadeAlpha == 1) 
 {
-    room_goto(target);
+    room_goto(targetRoom);
     fadeState = -1;
 }
 
