@@ -9,7 +9,7 @@
         "25863aa9-c735-4410-9bb6-1f16789f2d6b"
     ],
     "filterType": "GMScript",
-    "folderName": "effects",
+    "folderName": "screenShake",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

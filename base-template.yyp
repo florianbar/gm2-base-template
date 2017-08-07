@@ -151,14 +151,6 @@
             }
         },
         {
-            "Key": "4768fbc8-8aa0-45b7-b26f-ac9f19f9cb76",
-            "Value": {
-                "id": "b56def3b-5712-4f0d-bd81-5e7df1092912",
-                "resourcePath": "scripts\\EaseOutElasticExt\\EaseOutElasticExt.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "4779c7af-cfb7-4fac-b3cd-d68ba9959526",
             "Value": {
                 "id": "a69978d1-0f07-4678-be8f-af18e3e99169",
@@ -351,14 +343,6 @@
             }
         },
         {
-            "Key": "c7bb0409-9310-425b-81c9-759b5804ff77",
-            "Value": {
-                "id": "815c337c-5d96-42a0-a230-62f3c0bea25a",
-                "resourcePath": "scripts\\EaseInExt\\EaseInExt.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "dde296ff-def6-4f21-9c7c-3e4642d7de6d",
@@ -431,14 +415,6 @@
             }
         },
         {
-            "Key": "ed003726-9747-49a2-b52f-c6b77ba7933d",
-            "Value": {
-                "id": "84c57ef5-333c-4a26-802c-8a2f0c07426f",
-                "resourcePath": "scripts\\EaseInOutExt\\EaseInOutExt.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "f2811688-2f4f-45e0-b8ee-120b452472c6",
@@ -461,14 +437,6 @@
                 "resourcePath": "views\\f818e5b4-0a71-494c-b340-1e5985019da1.yy",
                 "resourceType": "GMFolder"
             }
-        },
-        {
-            "Key": "febccd16-bc1b-440a-9e0e-fa0057a6d9ac",
-            "Value": {
-                "id": "4d7ef7a9-cc13-4fd6-ae63-11d640f6744e",
-                "resourcePath": "scripts\\EaseLinearExt\\EaseLinearExt.yy",
-                "resourceType": "GMScript"
-            }
         }
     ],
     "script_order": [
@@ -481,10 +449,6 @@
         "dd455f8e-a397-4c4b-ad9f-a1fe092a72ab",
         "a4405425-70a2-4934-9bb6-ffa62cb119f0",
         "e4e7c513-6ea3-4cfa-b769-8ac5780a21ad",
-        "febccd16-bc1b-440a-9e0e-fa0057a6d9ac",
-        "c7bb0409-9310-425b-81c9-759b5804ff77",
-        "ed003726-9747-49a2-b52f-c6b77ba7933d",
-        "4768fbc8-8aa0-45b7-b26f-ac9f19f9cb76",
         "9ebf84e9-9cd6-4a0c-800a-d39fd5abd8bd",
         "58eee870-8a63-46cf-a382-b8499527d66a",
         "bcc9448a-4ebe-49b3-a3d1-d13c787bc1c3",
