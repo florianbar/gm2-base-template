@@ -1,14 +1,18 @@
 var keyUp     = keyboard_check_released(vk_up)   or keyboard_check_released(ord("W"));
 var keyDown   = keyboard_check_released(vk_down) or keyboard_check_released(ord("S"));
+var keyCancel = keyboard_check_released(vk_escape);
 var keyAction = keyboard_check_released(vk_enter);
-	
-if (keyUp) {
+
+if (keyUp) 
+{
 	if (activeItem == 0) {
 		activeItem = array_length_1d(menuItems)-1;
 	} else {
 		activeItem--;
 	}
-} else if (keyDown) {
+} 
+else if (keyDown) 
+{
 	if (activeItem == array_length_1d(menuItems)-1) {
 		activeItem = 0;
 	} else {
@@ -16,11 +20,12 @@ if (keyUp) {
 	}
 }
 
-if (keyAction) {
+if (keyAction) 
+{
 	switch (activeItem) {
 		//play
 		case 0:
-			state = "exit"
+			state = "leave";
 			break;
 			
 		//menu
@@ -46,11 +51,11 @@ if (state == "enter")
 		time = 0;
 	}
 }
-else if (state == "exit")
+else if (state == "leave")
 {
 	if (time < duration)
 	{
-		menuY = EaseOutElastic(time, endY, startY - endY, duration);
+		menuY = EaseIn(time, endY, startY - endY, duration);
 		time++;
 	}
 	else
@@ -62,4 +67,5 @@ else if (state == "exit")
 }
 else if (state == "normal")
 {
+	if (keyCancel) state = "leave";
 }

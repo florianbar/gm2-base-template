@@ -1,4 +1,4 @@
-//state => enter, exit, normal
+//state => enter, leave, normal
 state = "enter";
 
 menuItems = ["Resume", "End Game"];
