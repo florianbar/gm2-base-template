@@ -58,7 +58,15 @@
             "Key": "07f135f5-2cd2-490e-8b90-b714d320f23d",
             "Value": {
                 "id": "01748af8-6f11-4d74-82c6-8a77879f2907",
-                "resourcePath": "objects\\ctrl_main\\ctrl_main.yy",
+                "resourcePath": "objects\\ctrl_game\\ctrl_game.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0ac161a8-800f-4a2e-b25c-771fdd552420",
+            "Value": {
+                "id": "023fcd84-b440-4318-8146-44e42c96d903",
+                "resourcePath": "objects\\ctrl_title\\ctrl_title.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -146,7 +154,7 @@
             "Key": "35cbf95b-d571-4fa9-a3b9-c82404acc4ca",
             "Value": {
                 "id": "accd5421-d6d0-442b-909a-99fc6540821e",
-                "resourcePath": "scripts\\GameResume\\GameResume.yy",
+                "resourcePath": "scripts\\GameUnfreeze\\GameUnfreeze.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -234,7 +242,7 @@
             "Key": "6d67ce0b-7229-4988-8bd0-4b74d84b3993",
             "Value": {
                 "id": "18c989d8-c957-4225-a4b3-15de133086b7",
-                "resourcePath": "scripts\\GamePauseFor\\GamePauseFor.yy",
+                "resourcePath": "scripts\\GameFreezeFor\\GameFreezeFor.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -274,7 +282,7 @@
             "Key": "887ca1a1-d25a-46bd-b31d-4fe732e56f94",
             "Value": {
                 "id": "f66255a7-6ced-4140-8281-4dc890db12ee",
-                "resourcePath": "objects\\obj_gamePause\\obj_gamePause.yy",
+                "resourcePath": "objects\\obj_gameFreeze\\obj_gameFreeze.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -303,6 +311,14 @@
             }
         },
         {
+            "Key": "917600d0-4eda-4f21-805c-b16d0e04f2d1",
+            "Value": {
+                "id": "c1ca2c44-1243-4e6f-ae3a-337f2ee55fb7",
+                "resourcePath": "objects\\obj_pauseMenu\\obj_pauseMenu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "93db2a95-038d-42ce-974f-86dae58d5d82",
             "Value": {
                 "id": "70ecd4c4-9a6c-450a-b52a-2237cea4f268",
@@ -314,7 +330,7 @@
             "Key": "96bc8327-b6eb-46b4-acd7-15e9ccd0f4c1",
             "Value": {
                 "id": "95fd913d-4fce-4049-892e-e83b17bf0a32",
-                "resourcePath": "scripts\\GamePause\\GamePause.yy",
+                "resourcePath": "scripts\\GameFreeze\\GameFreeze.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -364,6 +380,14 @@
                 "id": "8aff4ad2-69f8-4f46-8c79-256d653a7254",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ace7f282-2e7d-42af-9151-b99da8085779",
+            "Value": {
+                "id": "83dc34e8-de8f-4597-967b-8140eada4299",
+                "resourcePath": "scripts\\GameResume\\GameResume.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -447,6 +471,14 @@
             }
         },
         {
+            "Key": "d6508470-c88d-4e28-8d91-893cf5e3f18e",
+            "Value": {
+                "id": "7b09ef24-770f-4c6a-9ad7-4f336ac0d8b4",
+                "resourcePath": "scripts\\GamePause\\GamePause.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dd455f8e-a397-4c4b-ad9f-a1fe092a72ab",
             "Value": {
                 "id": "cac51154-e51a-4364-999e-d3528a15901e",
@@ -516,6 +548,8 @@
         "96bc8327-b6eb-46b4-acd7-15e9ccd0f4c1",
         "6d67ce0b-7229-4988-8bd0-4b74d84b3993",
         "35cbf95b-d571-4fa9-a3b9-c82404acc4ca",
+        "d6508470-c88d-4e28-8d91-893cf5e3f18e",
+        "ace7f282-2e7d-42af-9151-b99da8085779",
         "9b88d93e-2ff5-4cbb-b021-c058c957c4b0",
         "d1a38bd2-08b9-4f37-8fb7-9875dc030857",
         "25863aa9-c735-4410-9bb6-1f16789f2d6b",

@@ -1,12 +1,7 @@
-/// @description GamePause(stayActive)
-/// @param stayActive
+/// @description GamePause()
 
-// Example: GamePause([ctrl_main, ctrl_game]);
- 
-var stayActive = argument0;
-
-if (!instance_exists(obj_gamePause))
+if (!instance_exists(obj_pauseMenu))
 {
-    var inst_gamePause = instance_create_depth(0,0,0,obj_gamePause);
-	inst_gamePause.stayActive = stayActive;
+	instance_create_depth(0,0,-100,obj_pauseMenu);
+	GameFreeze([obj_pauseMenu]);
 }

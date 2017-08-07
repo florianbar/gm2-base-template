@@ -1,8 +1,7 @@
 /// @description GameResume()
 
-// Example: GameResume();
-
-if (instance_exists(obj_gamePause))
+if (instance_exists(obj_pauseMenu))
 {
-    instance_destroy(obj_gamePause);
+	instance_destroy(obj_pauseMenu);
+	GameUnfreeze();
 }

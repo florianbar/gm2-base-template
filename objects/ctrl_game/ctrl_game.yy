@@ -2,7 +2,7 @@
     "id": "07f135f5-2cd2-490e-8b90-b714d320f23d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ctrl_main",
+    "name": "ctrl_game",
     "eventList": [
         {
             "id": "042e484b-d61f-4013-8069-3c50c4e8460e",
@@ -32,6 +32,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 2,
+            "m_owner": "07f135f5-2cd2-490e-8b90-b714d320f23d"
+        },
+        {
+            "id": "f1215fee-82e4-4e52-8b86-bbee4767179a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 27,
+            "eventtype": 10,
             "m_owner": "07f135f5-2cd2-490e-8b90-b714d320f23d"
         }
     ],

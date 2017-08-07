@@ -1,8 +1,8 @@
 {
-    "id": "6d67ce0b-7229-4988-8bd0-4b74d84b3993",
+    "id": "35cbf95b-d571-4fa9-a3b9-c82404acc4ca",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "GamePauseFor",
+    "name": "GameUnfreeze",
     "IsCompatibility": false,
     "IsDnD": false
 }
