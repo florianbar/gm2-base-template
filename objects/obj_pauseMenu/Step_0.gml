@@ -1,7 +1,7 @@
 var keyUp     = keyboard_check_released(vk_up)   or keyboard_check_released(ord("W"));
 var keyDown   = keyboard_check_released(vk_down) or keyboard_check_released(ord("S"));
 var keyAction = keyboard_check_released(vk_enter);
-
+	
 if (keyUp) {
 	if (activeItem == 0) {
 		activeItem = array_length_1d(menuItems)-1;
@@ -20,7 +20,7 @@ if (keyAction) {
 	switch (activeItem) {
 		//play
 		case 0:
-			GameResume();
+			state = "exit"
 			break;
 			
 		//menu
@@ -31,4 +31,35 @@ if (keyAction) {
 		default:
 			break;
 	}
+}
+
+if (state == "enter")
+{
+	if (time < duration)
+	{
+		menuY = EaseOutElastic(time, startY, endY - startY, duration);
+		time++;
+	}
+	else
+	{
+		state = "normal";
+		time = 0;
+	}
+}
+else if (state == "exit")
+{
+	if (time < duration)
+	{
+		menuY = EaseOutElastic(time, endY, startY - endY, duration);
+		time++;
+	}
+	else
+	{
+		//resume game
+		GameUnfreeze();
+		instance_destroy();
+	}
+}
+else if (state == "normal")
+{
 }
