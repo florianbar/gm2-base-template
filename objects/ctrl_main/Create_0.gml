@@ -5,5 +5,3 @@
 //alarm[0] = Seconds(5);
 
 //ScreenShakeFor(2);
-
-RoomTransition();

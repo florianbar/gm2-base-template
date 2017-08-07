@@ -1,4 +1,4 @@
-/// @description ScreenShake(duration)
+/// @description ScreenShake(offset)
 /// @param offset
 
 if (!instance_exists(obj_screenShake)) {

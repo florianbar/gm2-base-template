@@ -1,20 +1,13 @@
 if (time < duration) 
 {
-	x = EaseOutElastic(time, startX, endX - startX, duration);
-	y = EaseOutElastic(time, startY, endY - startY, duration);
-
+	image_xscale = EaseIn(time, start, change - start, duration);
+	image_yscale = image_xscale;
 	time++;
 } 
 else 
 {
-	var tempStartX = startX;
-	var tempStartY = startY;
-	
-	startX = endX;
-	startY = endY;
-	
-	endX = tempStartX;
-	endY = tempStartY;
-	
+	var tempStart = start;
+	start = change;
+	change = tempStart;
 	time = 0;
 }

@@ -1,6 +1,4 @@
-startX = x;
-endX = x + 200;
-startY = y;
-endY = y + 200;
-duration = Seconds(1);
+start = 1;
+change = 0.8;
+duration = Seconds(.5);
 time = 0;
