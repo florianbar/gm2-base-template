@@ -1,6 +1,6 @@
 if (time < duration) 
 {
-	pos = EaseOutElasticExt(time, startX, startY, endX - startX, endY - startY, duration, 1);
+	pos = EaseOutElasticExt(time, startX, startY, endX - startX, endY - startY, duration, 0.4);
 	time++;
 	
 	x = pos[0];

@@ -2,7 +2,7 @@
 /// @param key
 /// @param value
 
-// Usage: DataUpdate("highscore", 100);
+// Example: DataUpdate("highscore", 100);
 
 var key = argument0;
 var value = argument1;
