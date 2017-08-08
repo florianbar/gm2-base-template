@@ -1,6 +1,5 @@
-/// @description Insert description here
-
-global.iniPath = working_directory + "save_1";
-
+ResolutionSet();
+GlobalConfig();
 DataInit();
-room_goto_next();
+
+room_goto(rm_title);
