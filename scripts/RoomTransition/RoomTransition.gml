@@ -7,7 +7,7 @@ var targetRoom = argument0;
 
 if (!instance_exists(obj_roomTransition)) 
 {
-    var inst_roomTransition = instance_create_depth(0,0,-100,obj_roomTransition);
+    var inst_roomTransition = instance_create_depth(0,0,global.depthFade,obj_roomTransition);
     inst_roomTransition.targetRoom = targetRoom;
 	
 	if (argument_count > 1) 

@@ -7,6 +7,6 @@ var stayActive = argument0;
 
 if (!instance_exists(obj_gameFreeze))
 {
-    var inst_gamePause = instance_create_depth(0,0,-100,obj_gameFreeze);
+    var inst_gamePause = instance_create_depth(0,0,global.depthFreeze,obj_gameFreeze);
 	inst_gamePause.stayActive = stayActive;
 }

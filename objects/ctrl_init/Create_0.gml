@@ -1,4 +1,3 @@
-ResolutionSet();
 GlobalConfig();
 DataInit();
 
