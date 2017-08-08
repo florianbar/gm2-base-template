@@ -1,7 +1,7 @@
-var keyUp     = keyboard_check_released(vk_up)   or keyboard_check_released(ord("W"));
-var keyDown   = keyboard_check_released(vk_down) or keyboard_check_released(ord("S"));
-var keyCancel = keyboard_check_released(vk_escape);
-var keyAction = keyboard_check_released(vk_enter);
+var keyUp     = keyboard_check_pressed(vk_up)   or keyboard_check_pressed(ord("W"));
+var keyDown   = keyboard_check_pressed(vk_down) or keyboard_check_pressed(ord("S"));
+var keyCancel = keyboard_check_pressed(vk_escape);
+var keyAction = keyboard_check_pressed(vk_enter);
 
 if (keyUp) 
 {
@@ -38,6 +38,9 @@ if (keyAction)
 	}
 }
 
+if (keyCancel) state = "leave";
+
+
 if (state == "enter")
 {
 	if (time < duration)
@@ -67,5 +70,5 @@ else if (state == "leave")
 }
 else if (state == "normal")
 {
-	if (keyCancel) state = "leave";
+	
 }

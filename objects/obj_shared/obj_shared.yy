@@ -2,7 +2,7 @@
     "id": "5586313d-80a6-45e6-a98e-ef99ff1f9b64",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_sharedManager",
+    "name": "obj_shared",
     "eventList": [
         {
             "id": "dd05bdd7-2f4a-41be-ab65-d64e859e63fc",

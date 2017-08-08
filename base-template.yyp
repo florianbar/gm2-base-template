@@ -202,7 +202,7 @@
             "Key": "5586313d-80a6-45e6-a98e-ef99ff1f9b64",
             "Value": {
                 "id": "ab7cc03a-baad-4aeb-ae8c-d6b28f18fb98",
-                "resourcePath": "objects\\obj_sharedManager\\obj_sharedManager.yy",
+                "resourcePath": "objects\\obj_shared\\obj_shared.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -482,7 +482,7 @@
             "Key": "d2c75bb2-cbc0-465b-b857-50b8843b9dd5",
             "Value": {
                 "id": "ce9e96a2-849d-4e33-b0c8-350579624a11",
-                "resourcePath": "scripts\\GlobalConfig\\GlobalConfig.yy",
+                "resourcePath": "scripts\\Globals\\Globals.yy",
                 "resourceType": "GMScript"
             }
         },
