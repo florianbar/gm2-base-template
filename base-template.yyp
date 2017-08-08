@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "7b1ee184-d1f5-40a7-b439-0bd44d238a70",
+            "Value": {
+                "id": "a7a96fed-b2fd-4ef8-bd16-2dfbb1089d64",
+                "resourcePath": "sprites\\bck_test\\bck_test.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "887ca1a1-d25a-46bd-b31d-4fe732e56f94",
             "Value": {
                 "id": "f66255a7-6ced-4140-8281-4dc890db12ee",
