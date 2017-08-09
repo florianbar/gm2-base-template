@@ -1,7 +1,6 @@
 var item = menuItems[activeItem];
-var title = item[0];
-var descr = item[1];
-var image = item[2];
+var descr = item[0];
+var image = item[1];
 
 
 /*
@@ -9,9 +8,6 @@ var image = item[2];
  */	
 draw_set_color(c_white);
 draw_set_halign(fa_center);
-
-draw_set_font(global.fontH1);
-draw_text(room_width/2, 80, string(title));
 
 draw_set_font(global.fontP);
 draw_text(room_width/2, room_height/2+60, string(descr));

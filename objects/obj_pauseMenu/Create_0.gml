@@ -2,9 +2,9 @@
 state = "enter";
 
 menuItems = [
-	"Resume", 
-	"Tutorial", 
-	"End Game"
+	"RESUME", 
+	"HOW TO PLAY", 
+	"END GAME"
 ];
 activeItem = 0;
 
