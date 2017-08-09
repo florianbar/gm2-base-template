@@ -1,7 +1,7 @@
-var keyUp     = keyboard_check_pressed(vk_up)   or keyboard_check_pressed(ord("W"));
-var keyDown   = keyboard_check_pressed(vk_down) or keyboard_check_pressed(ord("S"));
 var keyCancel = keyboard_check_pressed(vk_escape);
-var keyAction = keyboard_check_pressed(vk_enter);
+var keyUp     = keyboard_check_pressed(vk_up)    or keyboard_check_pressed(ord("W"));
+var keyDown   = keyboard_check_pressed(vk_down)  or keyboard_check_pressed(ord("S"));
+var keyAction = keyboard_check_pressed(vk_enter) or keyboard_check_pressed(vk_space);
 
 if (keyUp) 
 {

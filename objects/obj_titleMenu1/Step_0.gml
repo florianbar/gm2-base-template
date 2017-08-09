@@ -1,6 +1,6 @@
-var keyUp     = keyboard_check_pressed(vk_up)    or keyboard_check_pressed(ord("W"));
-var keyDown   = keyboard_check_pressed(vk_down)  or keyboard_check_pressed(ord("S"));
-var keyAction = keyboard_check_pressed(vk_enter) or keyboard_check_pressed(vk_space);
+var keyUp     = keyboard_check_pressed(vk_up)   or keyboard_check_pressed(ord("W"));
+var keyDown   = keyboard_check_pressed(vk_down) or keyboard_check_pressed(ord("S"));
+var keyAction = keyboard_check_pressed(vk_enter);
 
 if (keyUp) {
 	if (activeItem == 0) {

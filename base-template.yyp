@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "728455a6-13cf-4816-a2a9-f0f0e645bd05",
+            "Value": {
+                "id": "f7e35842-8066-427b-a3e3-23758aeedef5",
+                "resourcePath": "objects\\ctrl_tutorial\\ctrl_tutorial.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "4863eafd-bafd-4013-bb70-6ac9c7cf7cd8",
@@ -348,6 +356,14 @@
                 "id": "95fd913d-4fce-4049-892e-e83b17bf0a32",
                 "resourcePath": "scripts\\GameFreeze\\GameFreeze.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "995e3e60-a3ca-4261-9551-94745769dfe0",
+            "Value": {
+                "id": "a63915a5-5de4-4647-8d95-73d5d2394437",
+                "resourcePath": "objects\\obj_tutorialCarousel\\obj_tutorialCarousel.yy",
+                "resourceType": "GMObject"
             }
         },
         {
