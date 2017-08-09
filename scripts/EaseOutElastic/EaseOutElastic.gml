@@ -8,7 +8,7 @@ var t = argument[0];
 var b = argument[1];
 var c = argument[2];
 var d = argument[3];
-var tension = 1.5; // controls bounciness
+var tension = 1; // controls bounciness
 
 var s = 1.7;
 var p = 0;

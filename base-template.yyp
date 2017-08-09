@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "22bc1c4f-38f4-4057-ac0f-999fd7c04b6b",
+            "Value": {
+                "id": "0af6689c-e373-443f-8d11-fd7b0bdfe4a9",
+                "resourcePath": "fonts\\fnt_p\\fnt_p.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "2325a901-8b18-453c-a3b9-5d39c4e66a29",
             "Value": {
                 "id": "92684ea0-e66f-4d18-8757-df596495fe4d",
@@ -303,6 +311,14 @@
             }
         },
         {
+            "Key": "873e8581-3b9d-4cf5-bc9d-c91744c00885",
+            "Value": {
+                "id": "a20edd21-e6b1-49af-8d6a-a09f7e14b601",
+                "resourcePath": "fonts\\fnt_small\\fnt_small.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "887ca1a1-d25a-46bd-b31d-4fe732e56f94",
             "Value": {
                 "id": "f66255a7-6ced-4140-8281-4dc890db12ee",
@@ -420,6 +436,14 @@
                 "id": "83dc34e8-de8f-4597-967b-8140eada4299",
                 "resourcePath": "scripts\\GameResume\\GameResume.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b9e66bd9-8537-41b6-bdf0-1163f04c5ff6",
+            "Value": {
+                "id": "55a1fa87-36ce-4280-be08-92e5ebc90e8b",
+                "resourcePath": "fonts\\fnt_h1\\fnt_h1.yy",
+                "resourceType": "GMFont"
             }
         },
         {

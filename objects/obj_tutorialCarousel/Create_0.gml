@@ -6,11 +6,21 @@ activeItem = 0;
  * 2 => sprite
  */
 menuItems = [
-	[ "Step 1", "This is the game"], 
-	[ "Step 2", "These are the controls" ], 
-	[ "Step 3", "This is how you play" ]
+	[ 
+		"Step 1", 
+		"This is the game",
+		spr_square
+	], 
+	[ 
+		"Step 2", 
+		"These are the controls",
+		spr_square 
+	], 
+	[ 
+		"Step 3",
+		"This is how you play",
+		spr_square 
+	]
 ];
 menuItemCount = array_length_1d(menuItems);
-
-paginationRadius = 4;
-paginationPadding = 20;
+dotPadding = 20;

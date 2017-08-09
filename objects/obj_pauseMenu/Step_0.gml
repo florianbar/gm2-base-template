@@ -23,13 +23,18 @@ else if (keyDown)
 if (keyAction) 
 {
 	switch (activeItem) {
-		//play
+		//Resume
 		case 0:
 			state = "leave";
 			break;
 			
-		//menu
+		//Tutorial
 		case 1:
+			RoomTransition(rm_tutorial);
+			break;
+			
+		//menu
+		case 2:
 			RoomTransition(rm_title);
 			break;
 			

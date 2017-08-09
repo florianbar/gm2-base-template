@@ -1,7 +1,11 @@
 //state => enter, leave, normal
 state = "enter";
 
-menuItems = ["Resume", "End Game"];
+menuItems = [
+	"Resume", 
+	"Tutorial", 
+	"End Game"
+];
 activeItem = 0;
 
 menuW = 300;

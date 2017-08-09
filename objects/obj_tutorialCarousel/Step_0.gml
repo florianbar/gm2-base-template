@@ -1,3 +1,6 @@
+/*
+ * User input
+ */
 var keyCancel = keyboard_check_pressed(vk_escape);
 var keyAction = (
 	keyboard_check_pressed(vk_enter) 
@@ -10,6 +13,10 @@ var next = (
 	or keyAction
 );
 
+
+/*
+ * Events
+ */
 if (keyCancel)
 {
 	RoomTransition(rm_title);

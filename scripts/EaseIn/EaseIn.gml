@@ -9,6 +9,6 @@ var b = argument[1];
 var c = argument[2];
 var d = argument[3];
 
-t/=d;
+t /= d;
 
 return c*t*t*t+b;
