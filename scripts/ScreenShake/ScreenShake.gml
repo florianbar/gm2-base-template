@@ -1,10 +1,14 @@
 /// @description ScreenShake(offset)
 /// @param offset
 
-if (!instance_exists(obj_screenShake)) {
-	var inst_screenShake = instance_create_depth(0,0,0,obj_screenShake);
+
+if (instance_exists(obj_screenShake)) 
+{
+	instance_destroy(obj_screenShake);
+}
+
+var inst_screenShake = instance_create_depth(0,0,0,obj_screenShake);
 	
-	if (argument_count > 0) {
-		inst_screenShake.offset = argument[0];
-	}
+if (argument_count > 0) {
+	inst_screenShake.offset = argument[0];
 }
