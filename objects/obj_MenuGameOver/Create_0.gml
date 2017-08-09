@@ -1,7 +1,7 @@
 menuItems = [
-	"PLAY", 
-	"HOW TO PLAY", 
-	"EXIT"
+	"TRY AGAIN",
+	"HOW TO PLAY",  
+	"END GAME"
 ];
 activeItem = 0;
 menuX = room_width/2; 

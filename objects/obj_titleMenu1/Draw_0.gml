@@ -1,4 +1,5 @@
 draw_set_halign(fa_center);
+draw_set_font(global.fontP);
 
 for (var i = 0; i < array_length_1d(menuItems); i++)
 {

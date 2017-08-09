@@ -28,9 +28,9 @@ if (keyAction) {
 			RoomTransition(rm_tutorial);
 			break;
 			
-		//exit
+		//title
 		case 2:
-			game_end();
+			RoomTransition(rm_title);
 			break;
 			
 		default:
