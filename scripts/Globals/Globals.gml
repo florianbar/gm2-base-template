@@ -1,4 +1,4 @@
-/// @description GlobalConfig()
+/// @description Globals()
 
 
 /*
