@@ -1,4 +1,4 @@
-start = 1;
-change = 0.8;
-duration = Seconds(.5);
+start = x;
+change = x + 400;
+duration = Seconds(random_range(0.5, 2));
 time = 0;

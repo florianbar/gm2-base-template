@@ -359,14 +359,6 @@
             }
         },
         {
-            "Key": "8fb6ea5e-34c7-41ee-9836-41f2878ecf43",
-            "Value": {
-                "id": "8e8c3855-1f94-46d1-9d05-9aa5a4cc2c79",
-                "resourcePath": "views\\8fb6ea5e-34c7-41ee-9836-41f2878ecf43.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "9081a759-63f1-4539-a1fb-d5611d00c0d7",
             "Value": {
                 "id": "6d2b17d5-8d4c-4b35-8a07-e925a846c765",
@@ -572,6 +564,14 @@
                 "id": "7b09ef24-770f-4c6a-9ad7-4f336ac0d8b4",
                 "resourcePath": "scripts\\GamePause\\GamePause.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d891b345-84a5-4bb3-ac81-b99183c4e522",
+            "Value": {
+                "id": "1e678a27-1841-48fc-b59d-66c9ac3d225a",
+                "resourcePath": "notes\\gameDesignDocument.yy",
+                "resourceType": "GMNotes"
             }
         },
         {

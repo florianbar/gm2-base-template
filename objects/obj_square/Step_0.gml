@@ -1,7 +1,6 @@
 if (time < duration) 
 {
-	image_xscale = EaseIn(time, start, change - start, duration);
-	image_yscale = image_xscale;
+	x = EaseOutElastic(time, start, change - start, duration);
 	time++;
 } 
 else 
