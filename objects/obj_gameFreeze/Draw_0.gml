@@ -1,9 +1,9 @@
 /// @description Draw sprite to screen 
 
-if (!is_undefined(pauseSprite))
+if (!is_undefined(freezeSprite))
 {
 	draw_sprite_stretched(
-	    pauseSprite, 
+	    freezeSprite, 
 		0, 
 		view_xview[0], 
 		view_yview[0], 

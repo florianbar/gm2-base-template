@@ -1,4 +1,4 @@
 hasInit = false;
 duration = undefined;
-pauseSprite = undefined;
+freezeSprite = undefined;
 stayActive = [];
